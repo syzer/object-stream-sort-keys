@@ -1,6 +1,25 @@
 # WAT
-5 min hack to test if you can sort keys in object alphabetically
+5 min hack to test if you can sort keys in object alphabetically.
 Apparently you can.
+
+```js
+{
+  avatarImage: 'https://avatars.slack-edge.com/2017-08-11/224869234865_461ad2cf1c769a9566f8_192.gif',
+  title: 'creadi.ch',
+  channel: 'C6LM165KJ',
+  event_ts: '1515681108.000069',
+}
+```
+
+=> 
+```js
+{ 
+  avatarImage: 'https://avatars.slack-edge.com/2017-08-11/224869234865_461ad2cf1c769a9566f8_192.gif',
+  channel: 'C6LM165KJ',
+  event_ts: '1515681108.000069',
+  title: 'creadi.ch' 
+}
+```
 
 # Installation
 
