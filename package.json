@@ -1,0 +1,12 @@
+{
+  "name": "object-stream-sort-keys",
+  "version": "1.0.0",
+  "description": "Sort keys in the stream",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "cat fixture.txt | ./index.js | grep -e '{ avatar'"
+  },
+  "author": "",
+  "license": "ISC"
+}

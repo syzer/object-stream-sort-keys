@@ -1,5 +1,6 @@
 # WAT
 5 min hack to test if you can sort keys in object alphabetically
+Apparently you can.
 
 # Installation
 
@@ -14,3 +15,8 @@ npm i -g object-stream-stort-keys
 pbcopy | object-stream-sort-keys | pbpaste
 ```
 3. Profit! 
+
+# Test
+```bash
+npm test
+```
